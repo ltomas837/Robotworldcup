@@ -12,7 +12,7 @@ This project aim to simulate the optimizaton strategies of the position of the r
 - Timeout_decorator
 - Python-tk
 
-Once you have installed python, pip is necessary to install the reauired libraries.
+Once you have installed python, pip is necessary to install the required libraries.
 ```
 sudo apt install python-pip
 ```
@@ -37,7 +37,8 @@ See below an example.
 python main.py viewer/configs/multigoal_problem_1.json greedy_solver_from_positions output.json
 ```
 The following is the solution displayed.
-https://github.com/ltomas837/Robotworldcup/blob/main/solution.png
+
+(https://github.com/ltomas837/Robotworldcup/blob/main/solution.png)
 
 - File `benchmark.py` enables to run the solvers on different problems. The following command will run it. Note that the exact solvers are predictably slow, and the `main.py` will draw the solution from the solver.
 ```
