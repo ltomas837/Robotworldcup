@@ -1,0 +1,7 @@
+Solveur,Probleme,Temps (s)
+exact\_solver\_from\_attempts,one\_opponent-theta\_0.0031416,60
+exact\_solver\_from\_attempts,three\_opponents-theta\_0.0031416,60
+exact\_solver\_from\_attempts,six\_opponents-theta\_0.0031416,60
+exact\_solver\_from\_attempts,one\_opponent-theta\_0.001,60
+exact\_solver\_from\_attempts,one\_opponent-theta\_0.05,40.84
+exact\_solver\_from\_attempts,six\_opponents-theta\_0.05,60

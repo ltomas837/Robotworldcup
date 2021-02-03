@@ -1,0 +1,19 @@
+Solveur,Probleme,Temps (s)
+exact\_solver\_from\_positions,one\_opponent-theta\_0.0031416,0.47
+exact\_solver\_from\_positions,three\_opponents-theta\_0.0031416,48.74
+exact\_solver\_from\_positions,six\_opponents-theta\_0.0031416,60.0
+exact\_solver\_from\_positions,one\_opponent-theta\_0.001,16.21
+exact\_solver\_from\_positions,one\_opponent-theta\_0.05,0.35
+exact\_solver\_from\_positions,six\_opponents-theta\_0.05,60.0
+greedy\_solver\_from\_positions,one\_opponent-theta\_0.0031416,2.02
+greedy\_solver\_from\_positions,three\_opponents-theta\_0.0031416,1.09
+greedy\_solver\_from\_positions,six\_opponents-theta\_0.0031416,1.43
+greedy\_solver\_from\_positions,one\_opponent-theta\_0.001,13.17
+greedy\_solver\_from\_positions,one\_opponent-theta\_0.05,0.34
+greedy\_solver\_from\_positions,six\_opponents-theta\_0.05,1.01
+greedy\_solver\_from\_positions2,one\_opponent-theta\_0.0031416,0.44
+greedy\_solver\_from\_positions2,three\_opponents-theta\_0.0031416,1.09
+greedy\_solver\_from\_positions2,six\_opponents-theta\_0.0031416,1.36
+greedy\_solver\_from\_positions2,one\_opponent-theta\_0.001,13.37
+greedy\_solver\_from\_positions2,one\_opponent-theta\_0.05,0.32
+greedy\_solver\_from\_positions2,six\_opponents-theta\_0.05,0.92
