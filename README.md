@@ -1,32 +1,47 @@
-# Algorithmique appliquée
-Projet réalisé dans le cadre du cours [Algorithmique appliquée](https://www.labri.fr/perso/lhofer/index.php?page=teaching/algorithmique_appliquee/index) de Master 2 Informatique de l'Université de Bordeaux.
-Ce projet vise à simuler l'optimisation de la position de robots participant à la [Robocup SSL](https://ssl.robocup.org/).
+# Robotworldcup
+Projects realized in the context of the curse [Algorithmique appliquée](https://www.labri.fr/perso/lhofer/index.php?page=teaching/algorithmique_appliquee/index) at Bordeaux University (M2).
+This project aim to simulate the optimizaton strategies of the position of the robots participating to the [Robocup SSL](https://ssl.robocup.org/). Indeed, the Bordeaux team is the world champion of this competition.
 
-Travail réalisé par :
-- Clément Romac
-- Léo Tomas
-- Irfaane Ousseny
-- Flavien Martineau
-
-## Prérequis
+## Prerequisites
 - Python 3.6
+- Pip
 - Numpy
+- Pygame
 - Matplotlib
 - Searborn
+- Timeout_decorator
+- Python-tk
 
-## Architecture du code
-- Le dossier `viewer` contient un fork du projet [viewer](https://github.com/medrimonia/ssl_defender_viewer) fourni dans le cadre du cours.
-- Le dossier `solvers` contient notre modélisation du problème et différents solveurs.
-- Le fichier `main.py` permet de lancer le code pour un problème spécifié.
-Pour le lancer, exécutez (ouvrir le fichier pour voir la lsite des solveurs) :
+Once you have installed python, pip is necessary to install the reauired libraries.
+```
+sudo apt install python-pip
+```
+Then install the required libraries with pip.
+```
+pip install numpy
+pip install pygame
+...
+```
+In order to install the python3-tk package, run the following command.
+```
+sudo apt-get install python3.6-tk
+```
+
+## How to run
+The standard command to run the project is the following.
 ```
 python main.py <problem.json> <solverName> <output_file.json>
 ```
-- Le fichier `benchmark.py` permet de lancer le code exécutant les solveurs sur différents problèmes.
-Pour le lancer, exécutez :
+See below an example.
+```
+python main.py viewer/configs/multigoal_problem_1.json greedy_solver_from_positions output.json
+```
+The following is the solution displayed.
+![alt text](https://github.com/ltomas837/Robotworldcup/blob/main/solution.png?raw=true)
+
+- File `benchmark.py` enables to run the solvers on different problems. The following command will run it. Note that the exact solvers are predictably slow, and the `main.py` will draw the solution from the solver.
 ```
 python benchmark.py
 ```
-**Note:** Attention, le code de benchmark utilise la bibliothèque Python [timeout_decorator](https://pypi.org/project/timeout-decorator/) qui ne fonctionne pas avec Windows.
 
-A noter que, dans le rapport final fourni, le solveur `exact_solver_from_attempts` a été exécuté séparément car il est beaucoup plus long que les autres.
+**Note:** Warning, file `benchmark.py` uses Python library [timeout_decorator](https://pypi.org/project/timeout-decorator/) which doesn't work on Windows.
