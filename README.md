@@ -37,7 +37,7 @@ See below an example.
 python main.py viewer/configs/multigoal_problem_1.json greedy_solver_from_positions output.json
 ```
 The following is the solution displayed.
-![alt text](https://github.com/ltomas837/Robotworldcup/blob/main/solution.png?raw=true)
+https://github.com/ltomas837/Robotworldcup/blob/main/solution.png
 
 - File `benchmark.py` enables to run the solvers on different problems. The following command will run it. Note that the exact solvers are predictably slow, and the `main.py` will draw the solution from the solver.
 ```
